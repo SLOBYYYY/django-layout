@@ -55,6 +55,7 @@ ve_path = os.path.dirname(os.path.dirname(os.path.dirname(PROJECT_DIR)))
 # directory means that we're running in a virtual environment.
 if os.path.exists(os.path.join(PYTHON_BIN, 'activate_this.py')):
     # We're running with a virtualenv python executable.
+    print 'Running with virtualenv'
     VAR_ROOT = os.path.join(os.path.dirname(PYTHON_BIN), 'var')
 elif ve_path and os.path.exists(os.path.join(ve_path, 'bin',
         'activate_this.py')):
