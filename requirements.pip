@@ -6,7 +6,7 @@
 
 django
 #django==1.4.3
-django_node
+django_nose
 nose==1.2.1
 selenium
 mock
