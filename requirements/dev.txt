@@ -1,0 +1,6 @@
+#This requirements file includes the common requirements and specifies a few needed for development
+-r common.txt
+django_nose
+nose==1.2.1
+selenium
+mock

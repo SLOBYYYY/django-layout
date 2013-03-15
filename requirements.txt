@@ -1,0 +1,7 @@
+# This file refers to one of the files in the requirement folders.
+# Provide the proper one for your environment
+#     pip install -r requirements.pip
+
+# Alter the config if you want to use different environment variables
+-r requirements/prod.txt
+# -r requirements/dev.txt

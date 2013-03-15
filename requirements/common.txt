@@ -1,0 +1,6 @@
+# This file collects all required third-party applications that are common for any type of deployment
+#Django==1.4
+Django==1.5
+South==0.7.6
+psycopg2
+dj-database-url
