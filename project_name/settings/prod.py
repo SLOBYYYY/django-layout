@@ -17,6 +17,4 @@ DATABASES = {
     }
 }
 
-# WSGI_APPLICATION = '{{ project_name }}.wsgi.dev.application'
-
-TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
+# WSGI_APPLICATION = '{{ project_name }}.wsgi.prod.application'

@@ -25,3 +25,5 @@ DATABASES = {
 
 # ROOT_URLCONF = '{{ project_name }}.urls.local'
 # WSGI_APPLICATION = '{{ project_name }}.wsgi.local.application'
+
+TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
