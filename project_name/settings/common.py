@@ -37,10 +37,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.admin',
     'django.contrib.admindocs',
-    'django_nose',
 )
-
-TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
 
 #==============================================================================
 # Calculation of directories relative to the project module location

@@ -17,6 +17,10 @@ DATABASES = {
     }
 }
 
+INSTALLED_APPS += (
+    'django_nose',
+)
+
 # WSGI_APPLICATION = '{{ project_name }}.wsgi.dev.application'
 
 TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
