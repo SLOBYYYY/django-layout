@@ -1,6 +1,8 @@
 """Settings for Development Server"""
 from {{ project_name }}.settings.common import *   # pylint: disable=W0614,W0401
-import dj_database_url #this can use the DATABASE_URL envvar
+
+#dj_database_url can use the DATABASE_URL envvar
+import dj_database_url
 
 DEBUG = False
 TEMPLATE_DEBUG = DEBUG
