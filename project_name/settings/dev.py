@@ -12,7 +12,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': '{{ project_name }}',
-        'USER': 'postgresql',
+        'USER': 'postgres',
 #        'PASSWORD': 'dbpassword',
     }
 }
