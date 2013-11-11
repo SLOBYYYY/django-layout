@@ -5,7 +5,7 @@ setup(
     name='{{ project_name }}',
     version='1.0',
     description="",
-    author="Szabolcs Máj",
+    author="Szabolcs Maj",
     author_email='szabolcs.maj@gmail.com',
     url='',
     packages=find_packages(),
