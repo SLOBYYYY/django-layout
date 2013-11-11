@@ -84,4 +84,4 @@ echo "workon $VIRTUALENV_NAME" >> /home/vagrant/.bashrc
 chmod a+x $PROJECT_DIR/manage.py
 
 # Django project setup
-su - vagrant -c "source $VIRTUALENV_DIR/bin/activate && cd $PROJECT_DIR && ./manage.py syncdb --noinput && ./manage.py migrate"
+su - vagrant -c "source $VIRTUALENV_DIR/bin/activate && cd $PROJECT_DIR && ./manage.py syncdb --noinput --settings=fag.settings.dev && ./manage.py migrate --settings=fag.settings.dev"
