@@ -25,10 +25,7 @@ LANGUAGES = (
 SECRET_KEY = '{{ secret_key }}'
 
 INSTALLED_APPS = (
-    # '{{ project_name }}.apps.',
-
-    #'south',
-
+    'south',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
