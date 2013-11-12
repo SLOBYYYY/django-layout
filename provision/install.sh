@@ -29,7 +29,10 @@ apt-get install -y build-essential python python-dev python-setuptools python-pi
 # Dependencies for image processing with PIL
 apt-get install -y libjpeg62-dev zlib1g-dev libfreetype6-dev liblcms1-dev
 # Git (we'd rather avoid people keeping credentials for git commits in the repo, but sometimes we need it for pip requirements that aren't in PyPI)
-apt-get install -y git
+apt-get install -y git vim wget
+
+# Install easy_install and setuptools
+wget https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py -O - | python
 
 # Postgresql
 if ! command -v psql; then
@@ -43,7 +46,10 @@ if ! command -v pip; then
 	easy_install -U pip
 fi
 if [[ ! -f /usr/local/bin/virtualenv ]]; then
-	easy_install virtualenv virtualenvwrapper stevedore virtualenv-clone
+	pip install virtualenv
+	pip install virtualenvwrapper
+	pip install stevedore
+	pip install virtualenv-clone
 fi
 
 # bash environment global setup
