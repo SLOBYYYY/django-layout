@@ -2,5 +2,6 @@
 *.egg-info
 {{ project_name }}/settings/local.py
 {{ project_name }}/settings/local/*
+{{ project_name }}/var/*
 docs/_build
 .ropeproject
